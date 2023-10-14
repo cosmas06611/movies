@@ -8,6 +8,9 @@
                     <img src={movie.Poster} alt="movie" width="300px" height="500px" />
                     <p style={{ textAlign: "center" }}>
                     {movie.Title} - {movie.Year}
+                  <p> Rating: </p> {movie.Rating} 
+                    
+                    
                     </p>
                 </div>
                 ))}
